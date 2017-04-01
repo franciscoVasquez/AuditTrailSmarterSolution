@@ -1,0 +1,42 @@
+﻿@model AuditTrailModel.CuentaBancaria
+
+@{
+    ViewBag.Title = "Nueva Cuenta Bancaria";
+}
+
+<div class="col-md-2"></div>
+<div class="panel-body col-md-8">
+
+    <section class="panel panel-default">
+
+        <div class="panel-heading">
+            Nueva cuenta
+        </div>
+        <div class="panel-body">
+            @using (Html.BeginForm("GuardarNuevo", "Home", FormMethod.Post, new { id = "Formulario" }))
+            {
+                <div class="form-group">
+                    @Html.Label("Número de Cuenta")
+                    @Html.TextBoxFor(model => model.NroCuenta, null, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    @Html.Label("Nombre del Banco")
+                    @Html.TextBoxFor(model => model.Banco, null, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    @Html.Label("Tipo cuenta")
+                    @Html.TextBoxFor(model => model.TipoCuenta, null, new { @class = "form-control" })
+                </div>
+
+                <div class="text-center">
+                    <input type="submit" class="btn btn-primary" name="Guardar" value="Guardar" />
+                    <input type="button" name="Cancelar" value="Cancelar" class="btn btn-danger" />
+                </div>
+            }
+        </div>
+    </section>
+</div>
+
+<div class="col-md-2">
+
+</div>

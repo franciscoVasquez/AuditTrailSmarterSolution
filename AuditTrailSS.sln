@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuditTrailSS", "AuditTrailSS\AuditTrailSS.csproj", "{350F2682-B99A-4C51-9EE4-6FCE482A9910}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuditTrailModel.cs", "AuditTrailContexto.cs\AuditTrailModel.cs.csproj", "{BD969B09-67EA-4B65-ADF4-CC899951CA54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuditAD", "AuditAD\AuditAD.csproj", "{A7BCA8CE-CBAA-40E0-9072-879227EA8032}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{350F2682-B99A-4C51-9EE4-6FCE482A9910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{350F2682-B99A-4C51-9EE4-6FCE482A9910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{350F2682-B99A-4C51-9EE4-6FCE482A9910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{350F2682-B99A-4C51-9EE4-6FCE482A9910}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD969B09-67EA-4B65-ADF4-CC899951CA54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD969B09-67EA-4B65-ADF4-CC899951CA54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD969B09-67EA-4B65-ADF4-CC899951CA54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD969B09-67EA-4B65-ADF4-CC899951CA54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7BCA8CE-CBAA-40E0-9072-879227EA8032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7BCA8CE-CBAA-40E0-9072-879227EA8032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7BCA8CE-CBAA-40E0-9072-879227EA8032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7BCA8CE-CBAA-40E0-9072-879227EA8032}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

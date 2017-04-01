@@ -1,0 +1,58 @@
+﻿@model List<AuditTrailModel.CuentaBancaria>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+<div class="panel-body col-md-12">
+    <section class="panel panel-default">
+        <div class="panel-heading text-center"><h3> Listado de cuentas Bancarias</h3></div>
+        <div class="panel-body">
+            <table>
+                <thead>
+                    <tr>
+
+                        <th>Id</th>
+                        <th>
+                            Número de Cuenta
+                        </th>
+                        <th>
+                            Nombre Banco
+                        </th>
+                        <th>
+                            Tipo de Cuenta
+                        </th>
+                        <th>
+                            Acciones
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Cod_Cuenta</td>
+                            <td>@item.NroCuenta</td>
+                            <td>@item.Banco</td>
+                            <td>@item.TipoCuenta</td>
+                            <td><a href="@Url.Action("Edit", new { id = @item.Cod_Cuenta })">Editar</a>, <a href="@Url.Action("DeleteRegistro", new { id = @item.Cod_Cuenta } )">Eliminar</a></td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+
+        </div>
+    </section>
+
+    <div class="text-center">
+        
+        <input value="Nuevo" onclick="location.href='@Url.Action("Nuevo", "Home")'" type="button" class="btn btn-primary">
+           
+        </>
+    </div>
+
+</div>

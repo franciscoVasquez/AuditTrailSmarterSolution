@@ -1,0 +1,14 @@
+\\Mac\Home\Documents\Visual Studio 2013\Projects\AuditTrailSS\AuditAD\obj\Debug\AuditAD.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Visual Studio 2013\Projects\AuditTrailSS\AuditAD\bin\Debug\AuditAD.dll.config
+\\Mac\Home\Documents\Visual Studio 2013\Projects\AuditTrailSS\AuditAD\bin\Debug\AuditAD.dll
+\\Mac\Home\Documents\Visual Studio 2013\Projects\AuditTrailSS\AuditAD\bin\Debug\AuditAD.pdb
+\\Mac\Home\Documents\Visual Studio 2013\Projects\AuditTrailSS\AuditAD\bin\Debug\AuditTrailContexto.cs.dll
+\\Mac\Home\Documents\Visual Studio 2013\Projects\AuditTrailSS\AuditAD\bin\Debug\EntityFramework.dll
+\\Mac\Home\Documents\Visual Studio 2013\Projects\AuditTrailSS\AuditAD\bin\Debug\AuditTrailContexto.cs.pdb
+\\Mac\Home\Documents\Visual Studio 2013\Projects\AuditTrailSS\AuditAD\bin\Debug\EntityFramework.xml
+\\Mac\Home\Documents\Visual Studio 2013\Projects\AuditTrailSS\AuditAD\bin\Debug\es\EntityFramework.resources.dll
+\\Mac\Home\Documents\Visual Studio 2013\Projects\AuditTrailSS\AuditAD\obj\Debug\AuditAD.dll
+\\Mac\Home\Documents\Visual Studio 2013\Projects\AuditTrailSS\AuditAD\obj\Debug\AuditAD.pdb
+\\Mac\Home\Documents\Visual Studio 2013\Projects\AuditTrailSS\AuditAD\bin\Debug\EntityFramework.SqlServer.dll
+\\Mac\Home\Documents\Visual Studio 2013\Projects\AuditTrailSS\AuditAD\bin\Debug\EntityFramework.SqlServer.xml
+\\Mac\Home\Documents\Visual Studio 2013\Projects\AuditTrailSS\AuditAD\bin\Debug\es\EntityFramework.SqlServer.resources.dll
